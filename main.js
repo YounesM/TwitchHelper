@@ -296,6 +296,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
+    { path: '**', component: _app_chat_chat_component__WEBPACK_IMPORTED_MODULE_2__["ChatComponent"] },
     { path: 'home', component: _app_home_home_component__WEBPACK_IMPORTED_MODULE_1__["HomeComponent"] },
     { path: 'chat', component: _app_chat_chat_component__WEBPACK_IMPORTED_MODULE_2__["ChatComponent"] },
     { path: 'chat/brave', component: _app_chat_brave_chat_brave_component__WEBPACK_IMPORTED_MODULE_3__["ChatBraveComponent"] },
