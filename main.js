@@ -45,7 +45,7 @@ class ChatComponent {
     constructor() {
         this.displayedMessages = [];
         this.chatType = 'pmd';
-        this.CHAT_MAX_MESSAGES = 10;
+        this.CHAT_MAX_MESSAGES = 50;
         this.IMAGE_MAX_RAND = 129;
     }
     ngOnInit() {
